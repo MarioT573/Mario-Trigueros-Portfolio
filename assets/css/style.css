@@ -1,0 +1,79 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: flex-end;
+    background-color: rgb(255, 102, 75);
+    color: white;
+    font-size: 160%;
+    font-style: oblique;
+}
+
+/* Creating a blue Title card for my name */
+.titleCard {
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    background-color: rgb(71, 92, 211);
+}
+
+header h1 {
+    border: white;
+    text-align: left;
+}
+
+/* Formatting the links to display side by side */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 700px;
+    padding: 0px 75px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+
+/* Formatting for the standalone image */
+.bgImage {
+    background-image: url(../images/portfoliobg.PNG);
+    height: 800px;
+    object-position: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* Styling for the main background of the website */
+main {
+    background-color: rgb(188, 198, 255);
+}
+
+/* Styling and Formatting of the Box for the "About Me" article */
+.aboutMe {
+    background-color: grey;
+    max-width: 1000px;
+    width: 100%;
+    padding: 30px 50px;
+    margin: 0px auto;
+}
+
+/* Styling for the "About Me" article title */
+article h2 {
+    font-size: 60px;
+    font-style: oblique;
+}
+
+/* Setting paragraph font size as well as a bottom margin for paragraph separation */
+article p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
