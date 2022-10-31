@@ -10,59 +10,70 @@
 
     <body>
        <header>
+        <!-- Header flexbox for title card and navigation links -->
         <div class="titleCard">
             <h1>Mario A. Trigueros</h1>
         </div>
         <nav>  
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
+                <li><a href="#bio">About Me</a></li>
+                <li><a href="#projects">Work</a></li>
                 <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#contactMe">Contact Me</a></li>
             </ul>
         </nav>
        </header> 
+       <!-- Standalone image placed under the header -->
        <figure class="bgImage" alt="This is an image of a snowy mountain at night."></figure>
+
+        <main>
+            <!-- Flexbox to create a section for a short Biography -->
+            <article class="aboutMe" id="bio">
+                <div>
+                    <h2>About Me</h2>
+                    <img class="selfPic"></img>
+                </div>
+                <p>Being born in the 2000's era, I got to grow up watching technology evolve quickly throughout my childhood. From Flip Phones developing into the Smartphone (iPhone, Android, etc) and computers becoming exponentially more powerful, I've been drawn to these devices as long as I lived. Naturally, I gained interest into coding as a gateway for me to learn how to create things that otherwise would not be possible.</p>
+                <p>After 4 years of College following my other passion of physically working with computers through Information Technology and Networking studies, I decided to switch gears into learning the ins and outs of coding with languages such as Python. Now I am furthering my studies with the UofT SCS Coding Bootcamp for fullstack web development.</p>
+            </article>
+            <!-- Title for "My Work" section -->
+            <div id="projects">
+                <h2 class="myWorkTitle">My Work:</h2>
+            </div>
+            <!-- Flexbox to display the 5 projects -->
+            <section class="workProjects">
+                <a href="https://mariot573.github.io/Module-1-Challenge/" target="_blank">
+                <div class="firstProject">
+                    <h3>Horiseon Code Refactor</h3>
+                </div></a>
+
+                <a href="https://github.com/MarioT573" target="_blank">
+                <div class="secondProject">
+                    <h3>Work In Progress</h3>
+                </div></a>
+
+                <a href="https://github.com/MarioT573" target="_blank">
+                <div class="thirdProject">
+                    <h3>Work In Progress</h3>
+                </div></a>
+
+                <a href="https://github.com/MarioT573" target="_blank">
+                <div class="fourthProject">
+                    <h3>Work In Progress</h3>
+                </div></a>
+
+                <a href="https://github.com/MarioT573" target="_blank">
+                <div class="fifthProject">
+                    <h3>Work In Progress</h3>
+                </div></a>
+            </section>
+        </main>
+        <!-- Footer for the "Contact Me" section -->
+        <footer id="contactMe">
+            <h2>Contact Me:</h2>
+            <p>(647) 669-3560</p>
+            <p><a href="mailto:mariotrig@yahoo.ca">mariotrig@yahoo.ca</a></p>
+            <p><a href="https://github.com/MarioT573">GitHub</a></p>
+        </footer>
     </body>
-
-    <main>
-        <article class="aboutMe">
-            <h2>About Me</h2>
-            <p>Being born in the 2000's era, I got to grow up watching technology evolve quickly throughout my childhood. From Flip Phones developing into the Smartphone (iPhone, Android, etc) and computers becoming exponentially more powerful, I've been drawn to these devices as long as I lived. Naturally, I gained interest into coding as a gateway for me to learn how to create things that otherwise would not be possible.</p>
-            <p>After 4 years of College following my other passion of physically working with computers through Information Technology and Networking studies, I decided to switch gears into learning the ins and outs of coding with languages such as Python. Now I am furthering my studies with the UofT SCS Coding Bootcamp for fullstack web development.</p>
-        </article>
-
-        <div>
-            <h2 class="myWorkTitle">My Work:</h2>
-        </div>
-
-        <section class="workProjects">
-            <a href="https://mariot573.github.io/Module-1-Challenge/" target="_blank">
-            <div class="firstProject">
-                <h3>Horiseon Code Refactor</h3>
-            </div></a>
-
-            <a href="https://github.com/MarioT573" target="_blank">
-            <div class="secondProject">
-                <h3>Work In Progress</h3>
-            </div></a>
-
-            <a href="https://github.com/MarioT573" target="_blank">
-            <div class="thirdProject">
-                <h3>Work In Progress</h3>
-            </div></a>
-
-            <a href="https://github.com/MarioT573" target="_blank">
-            <div class="fourthProject">
-                <h3>Work In Progress</h3>
-            </div></a>
-
-            <a href="https://github.com/MarioT573" target="_blank">
-            <div class="fifthProject">
-                <h3>Work In Progress</h3>
-            </div></a>
-
-        </section>
-    </main>
-
 </html>
