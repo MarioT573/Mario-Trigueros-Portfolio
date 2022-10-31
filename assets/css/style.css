@@ -52,7 +52,7 @@ header nav a:hover {
 
 /* Formatting for the standalone image */
 .bgImage {
-    background-image: url(../images/portfoliobg.PNG);
+    background-image: url(../images/portfoliobg.png);
     height: 800px;
     object-position: 100% 100%;
     background-size: cover;
