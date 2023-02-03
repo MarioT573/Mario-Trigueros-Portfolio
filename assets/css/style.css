@@ -138,7 +138,7 @@ section h3 {
 
 /* Formatting for the first project */
 .firstProject {
-    background-image: url(../images/firstproject.png);
+    background-image: url(../images/project2.png);
     background-size: cover;
     background-position: center;
     width: 1000px;
@@ -157,7 +157,7 @@ section h3 {
 
 /* Formatting for the second project */
 .secondProject {
-    background-image: url(../images/secondproject.png);
+    background-image: url(../images/project1.png);
     background-size: cover;
     background-position: center;
     width: 450px;
